@@ -1,3 +1,4 @@
+const jwt = require('jsonwebtoken')
 const CustomAPIError = require('../errors/custom-error')
 
 const login = async (req,res) =>{
